@@ -30,7 +30,7 @@ public class BaseCartTest extends BaseTest {
     }
 
     @Test
-    public void checkMenuSolutionIsDisplayed() throws InterruptedException {
+    public void checkItemIsAddedToCartTest() throws InterruptedException {
         String expectedItemName = "Everyday Oils Essential Oil Collection";
         headerLeftSectionSteps
                 .clickSignInButton();
